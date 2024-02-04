@@ -1,0 +1,14 @@
+{
+  "name": "my_node_project",
+  "version": "1.0.0",
+  "description": "This product is created by Syed Kashif naqvi for learning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "syed kashif naqvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
