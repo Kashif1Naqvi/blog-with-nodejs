@@ -1,10 +1,10 @@
 const mysql = require('mysql')
-
+import {host, user, password, database, host} from './contants'
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'chatboot',
-  password: 'usa@@12Usa',
-  database: 'chatboot',
+  host: host,
+  user: user,
+  password: password,
+  database: database,
 })
 
 
